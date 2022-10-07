@@ -1,0 +1,15 @@
+#page-header {
+    height: 200px;
+    background: url('/img/slideshow/IMG_8204.JPG');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+.wedding-img {
+    height: 600px;
+    margin-top: -50px;
+    border: solid white 3px;
+}

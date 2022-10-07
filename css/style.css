@@ -51,6 +51,11 @@ body {
     background-position: 100% 35%;
 }
 
+#home-icons {
+    border-bottom: solid black 3px;
+    border-top: solid black 3px;
+}
+
 #home-heading {
     position: relative;
     min-height: 200px;

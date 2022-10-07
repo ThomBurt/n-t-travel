@@ -1,0 +1,47 @@
+.navbar {
+    border-bottom: solid 1px #444;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+.carousel-caption {
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.carousel-item {
+    height: 750px;
+}
+
+.carousel-image-1 {
+    background: url('../img/slideshow/IMG_5164.JPG') no-repeat left;
+    background-position: 100% 55%;
+    background-size: cover;
+    
+}
+.carousel-image-2 {
+    background: url('../img/slideshow/IMG_5159.JPG')  no-repeat ;
+    background-position: 100% 30%;
+    background-size: cover;
+}
+.carousel-image-3 {
+    background: url('../img/slideshow/IMG_5165.JPG') no-repeat left;
+    background-position: 100% 20%;
+    background-size: cover;
+}
+.carousel-image-4 {
+    background: url('../img/slideshow/IMG_8204.JPG') no-repeat left;
+
+    background-size: cover;
+    background-position: 100% 35%;
+}

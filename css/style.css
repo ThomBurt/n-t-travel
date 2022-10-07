@@ -85,3 +85,7 @@ body {
 #video-play a {
     color: white;
 }
+
+.gallery-image-margin {
+    margin-bottom: 10px;
+}

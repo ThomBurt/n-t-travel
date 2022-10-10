@@ -1,0 +1,25 @@
+{
+  "name": "nikiandthomtravel",
+  "version": "1.0.0",
+  "description": "https://vast-lake-01153.herokuapp.com/ | https://git.heroku.com/vast-lake-01153.git",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomBurt/n-t-travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomBurt/n-t-travel/issues"
+  },
+  "homepage": "https://github.com/ThomBurt/n-t-travel#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

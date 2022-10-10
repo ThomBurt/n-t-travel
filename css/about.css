@@ -1,11 +1,11 @@
 #page-header {
-    height: 200px;
+    height: 150px;
     background: url('/img/slideshow/IMG_8204.JPG');
     background-position: 0 -360px;
     background-attachment: fixed;
     color: white;
     border-bottom: 1px #eee solid;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .wedding-img {
@@ -24,4 +24,20 @@
 
 .testimonial-paragraph {
     font-size: 15px;
+}
+
+#video-play-about {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/beach.jpg');
+    background-attachment: fixed;
+    background-position:0 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.insta-social-icon:hover {
+    width: 28px;
+    height: 28px;
 }

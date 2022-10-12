@@ -257,15 +257,15 @@
         <div class="col">
           <h1>Sign Up For Our Newsletter</h1>
           <p>For all the latest travel tips and to stay in touch, enter your information below 😃</p>
-          <form  method="POST" class="form-inline justify-content-center">
+          <form id="email-signup-form" method="POST" class="form-inline justify-content-center">
             <input id="name" name="name" type="text" class="form-control mb-2 mr-2" placeholder="Enter Name">  
             <input id="email" name="email" type="email" class="form-control mb-2 mr-2" placeholder="Enter Email"> 
             <button type="submit" class="btn btn-primary mb-2">Submit</button> 
           </form>
         </div>
-        <div id="success-message" class="col-md-12 p-2 m-3 bg-success rounded d-none">
+        <!-- <div id="success-message" class="col-md-12 p-2 m-3 bg-success rounded d-none">
           <h4 class="text-white">Email Signup Successful</h4>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -294,7 +294,7 @@
     crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
-
+  
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());

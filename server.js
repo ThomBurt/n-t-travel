@@ -72,7 +72,7 @@ app.post("/", async (req, res) => {
     },
   });
   console.log("Email Signup successfully submitted, Thank you!")
- //res.send("Successfully submitted! Thank you!");
+  res.send("Successfully submitted! Thank you!");
 
 //  function successMessage(){
 //   let div = document.createElement("div");

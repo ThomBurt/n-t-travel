@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const htmlRoutes = require('./routes/htmlRoute');
 const { google } = require("googleapis");
+require('dotenv').config();
 
 const PORT = process.env.PORT || 3001;
 
@@ -36,7 +37,8 @@ app.post("/", async (req, res) => {
   const { name, email } = req.body;
 
   const auth = new google.auth.GoogleAuth({
-    keyFile: "google-api-credentials.json",
+    // keyFile: "google-api-credentials.json",
+    credentials: process.env,
     scopes: "https://www.googleapis.com/auth/spreadsheets",
   });
 

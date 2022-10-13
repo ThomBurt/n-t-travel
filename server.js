@@ -35,7 +35,7 @@ app.use('/', htmlRoutes);
 
 //Google Post
 
-app.post("nikiandthomtravel.herokuapp.com/", async (req, res) => {
+app.post("/nikiandthomtravel.herokuapp.com/", async (req, res) => {
 
   const { name, email } = req.body;
 

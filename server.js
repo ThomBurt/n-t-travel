@@ -3,11 +3,14 @@ const path = require('path');
 const htmlRoutes = require('./routes/htmlRoute');
 const { google } = require("googleapis");
 require('dotenv').config();
+const cors = require('cors');
 
 const PORT = process.env.PORT || 3001;
 
 // initializes express
 const app = express();
+
+app.use(cors())
 
 // Sets up the static files
 app.use(express.static(path.join(__dirname, 'public')));

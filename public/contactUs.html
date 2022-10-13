@@ -14,8 +14,10 @@
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/c96c8e63ed.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
 
   <title>Services - Niki & Thom Travel</title>
 </head>
@@ -69,63 +71,64 @@
 
   <!--CONTACT US-->
 
-  <section id="contact" class="py-3">
+  <section id="contact" class="py-3 text-center">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
           <div class="card p-4">
             <div class="card-body">
               <h4>Get in Touch</h4>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, possimus.</p>
+              <p>If you have any questions or would like to schedule a call to discuss your trip ideas, please don't hesitate to contact us using the information below or by submitting a contact form.</p>
               <h4>Email</h4>
-              <p>test@test.com</p>
-              <h4>Phone</h4>
-              <p>310-000-000</p>
+              <p>nikiandthomtravel@gmail.com</p>
+              <h4>Socials</h4>
+              <div class="social-links">
+                <a class="icon" href="https://www.facebook.com/songwriterslounge1"  target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a class="icon" href="https://www.instagram.com/songwriterslounge_"  target="_blank" class="instagram"><i class="fa-brands fa-instagram"></i></a>  
+                <a class="icon" href="https://www.youtube.com/channel/UC-00_L2jEAwvm3_DrNwk_fg"  target="_blank"  class="youtube"><i class="fa-brands fa-youtube"></i></a>  
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="card p-4">
-            <div class="card-body">
-              <h3 class="text-center">Please Fill Out This Form To Get In Contact</h3>
-              <hr>
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" placeholder="First Name" class="form-control">
+        <form class="col-md-8" action="https://formspree.io/f/xlevlpyr" method="POST">
+          <div >
+            <div class="card p-4">
+              <div class="card-body">
+                <h3 class="text-center">Please Fill Out This Form To Get In Contact</h3>
+                <hr>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="firstName" type="text" placeholder="First Name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="lastName" type="text" placeholder="Last Name" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <input name="email" type="email" placeholder="Email" class="form-control">
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" placeholder="Last Name" class="form-control">
+                <div class="row">
+                  <div class="col-md-12">
+                    <textarea name="message" class="form-control" placeholder="Message" ></textarea>
                   </div>
                 </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="email" placeholder="Email" class="form-control">
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input type="text" placeholder="Phone Number" class="form-control">
-                  </div>
-                </div>
-              </div>
-              <div class="row">
                 <div class="col-md-12">
-                  <textarea class="form-control" placeholder="Message" ></textarea>
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="form-group">
-                  <input type="submit" value="Submit" class="btn btn-outline-danger btn-block mt-4">
+                  <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-outline-danger btn-block mt-4">
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </form>
 
-        <form action="https://formspree.io/f/xlevlpyr" method="POST">
+        <!-- <form action="https://formspree.io/f/xlevlpyr" method="POST">
           <label>
             Your email:
             <input type="email" name="email">
@@ -134,9 +137,8 @@
             Your message:
             <textarea name="message"></textarea>
           </label>
-          <!-- your other form fields go here -->
           <button type="submit">Send</button>
-        </form>
+        </form> -->
 
       </div>
     </div>

@@ -1,0 +1,30 @@
+.insta-social-icon-contact:hover {
+    width: 21px;
+    height: 21px;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c757d;
+  }
+  .social-links a {
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(49, 46, 46);
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .social-links a:hover {
+    background: #6AAEEF;
+    color: white;
+  }

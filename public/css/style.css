@@ -2,7 +2,18 @@ body {
     overflow-x: hidden;
 }
 
+
+
+.font {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
 .navbar {
+    font-family: 'Gilroy-Bold', sans-serif;
     border-bottom: solid 3px #444;
 }
 
@@ -19,6 +30,7 @@ body {
 
 .carousel-caption {
     background-color: rgba(0,0,0,0.8);
+    font-family: 'Gilroy-Medium', sans-serif;
     border-radius: 7px;
     padding: 15px;
     width: 500px;

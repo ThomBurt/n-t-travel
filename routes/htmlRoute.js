@@ -2,7 +2,7 @@ const path = require('path');
 const router = require('express').Router();
 
 router.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'));
+    res.sendFile(path.join(__dirname,'../public/index.html'));
   });
 
     //NEW ROUTES
@@ -11,7 +11,7 @@ router.get('/about', (req, res) => {
   });
 
 router.get('/contact', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/contactUs.html'));
+    res.sendFile(path.join(__dirname, '../public/contact.html'));
   });
 
 router.get('/services', (req, res) => {
@@ -19,7 +19,7 @@ router.get('/services', (req, res) => {
   });
 
   router.get('/blog', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/travelBlog.html'));
+    res.sendFile(path.join(__dirname, '../public/services.html'));
   });
 
 router.get('*', (req, res) => {

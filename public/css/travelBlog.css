@@ -1,3 +1,18 @@
 .travel-map {
     margin-top: 25px;
 }
+
+.gallery-section {
+    border-bottom: 2px solid black;
+}
+
+#video-play-nyc {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/nyc.jpg');
+    background-attachment: fixed;
+    background-position:50% 80%;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    color: #fff;
+}

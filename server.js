@@ -1,16 +1,32 @@
 const express = require('express');
+const morgan = require('morgan');
+
 const path = require('path');
 const htmlRoutes = require('./routes/htmlRoute');
 const { google } = require("googleapis");
 require('dotenv').config();
-const cors = require('cors');
+// const cors = require('cors');
+
+const tourRouter = require('./routes/tourRoutes');
+const userRouter = require('./routes/userRoutes');
 
 const PORT = process.env.PORT || 3001;
 
 // initializes express
 const app = express();
 
-app.use(cors())
+//1 MIDDLEWARE
+//morgan is third party middleware that give your api request in the cnsolse, as well as how long it took to request, status code and size.
+app.use(morgan('dev'));
+
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString();
+  next();
+})
+
+///JSON middleware to use req.body
+app.use(express.json());
+
 
 // Sets up the static files
 app.use(express.static(path.join(__dirname, 'public')));
@@ -19,22 +35,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // parse application/json
 app.use(express.json());
 
-
-//Sets up data parsing
-app.use(express.urlencoded({ extended: true }));
-
-// Set ups the HTML directory path for startup
-app.get('/', async (req, res) => 
-  res.sendFile(path.join(__dirname, '/public'))
-);
-
-
-//app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
-
-
 //Google Post
-
 app.post("/", async (req, res) => {
 
   const { name, email } = req.body;
@@ -89,6 +90,29 @@ app.post("/", async (req, res) => {
 //  }
 //  successMessage();
 });
+
+
+//Sets up data parsing
+app.use(express.urlencoded({ extended: true }));
+
+// API ROUTES
+app.use('/api/v1/tours', tourRouter);
+app.use('/api/v1/users', userRouter);
+
+
+// Set ups the HTML directory path for startup
+app.get('/', async (req, res) => 
+  res.sendFile(path.join(__dirname, '/public'))
+);
+
+
+//HTML ROUTES
+app.use('/', htmlRoutes);
+
+
+
+
+
 
 
 

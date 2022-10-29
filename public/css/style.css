@@ -2,8 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 .font {
     font-family: 'Gilroy-Bold', sans-serif;
     font-family: 'Gilroy-Heavy', sans-serif;
@@ -105,4 +103,134 @@ body {
 
 .gallery-image-margin {
     margin-bottom: 10px;
+}
+
+.newsletter-signup {
+    background-color: aqua;
+    text-align: center;
+}
+
+.travel-map {
+    margin-top: 25px;
+}
+
+.gallery-section {
+    border-bottom: 2px solid black;
+}
+
+#video-play-nyc {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/nyc.jpg');
+    background-attachment: fixed;
+    background-position:50% 80%;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    color: #fff;
+}
+
+.country-header {
+    border-bottom: solid 1px black;
+    padding: 10px;
+    margin: 0 50px 50px 50px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+
+#faq .card {
+    border: #444;
+}
+
+#faq a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#faq .card-body, 
+#faq .card-header {
+    background: #333;
+}
+
+.insta-social-icon-contact:hover {
+    width: 21px;
+    height: 21px;
+}
+
+.social-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #6c757d;
+  }
+  .social-links a {
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(49, 46, 46);
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+  .social-links a:hover {
+    background: #6AAEEF;
+    color: white;
+  }
+
+  .contact-us-section {
+    border-bottom: 3px solid #6AAEEF;
+  }
+
+  #page-header {
+    height: 150px;
+    background: url('/img/slideshow/IMG_8204.JPG');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 40px;
+}
+
+.wedding-img {
+    height: 450px;
+    margin-top: -50px;
+    border: solid white 3px;
+}
+
+#what-we-do {
+    height: 100px;
+    background-color: #7DBBF4;
+    color: white;
+    border-bottom: 1px #eee solid;
+    padding-top: 20px;
+}
+
+.testimonial-paragraph {
+    font-size: 15px;
+}
+
+#video-play-about {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/beach.jpg');
+    background-attachment: fixed;
+    background-position:0 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.insta-social-icon:hover {
+    width: 28px;
+    height: 28px;
 }

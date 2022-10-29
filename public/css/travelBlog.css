@@ -16,3 +16,15 @@
     text-align: center;
     color: #fff;
 }
+
+.country-header {
+    border-bottom: solid 1px black;
+    padding: 10px;
+    margin: 0 50px 50px 50px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 50px;
+}

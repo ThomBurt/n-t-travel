@@ -239,3 +239,13 @@ body {
     text-decoration:none; 
     color: white
 }
+
+#main-footer {
+    border-top: 3px solid black;
+}
+
+.footer-new {
+    background-color: #343A40;
+    border-top: 3px solid black;
+}
+

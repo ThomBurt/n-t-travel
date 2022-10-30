@@ -249,3 +249,23 @@ body {
     border-top: 3px solid black;
 }
 
+.travel-blog-banner {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/b1590556-eafc-4b78-a817-97a541b3821f/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 70%;
+    color: white;
+  }
+
+  .travel-blog-banner h1 {
+    font-size: 70px;
+  }
+
+  .travel-blog-header-img {
+    height: 350px;
+    margin-top: -30px;
+    border: solid white 3px;
+}

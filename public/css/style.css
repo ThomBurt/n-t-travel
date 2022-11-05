@@ -86,6 +86,11 @@ body {
     background: rgba(0,0,0,0.5);
 }
 
+.countdown-numbers {
+    font-size: 80px;
+    font-family: 'Gilroy-Bold', sans-serif;
+}
+
 #video-play {
     position: relative;
     min-height: 200px;

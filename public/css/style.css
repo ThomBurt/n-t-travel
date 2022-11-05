@@ -259,13 +259,71 @@ body {
     background-position:0 70%;
     color: white;
   }
-
   .travel-blog-banner h1 {
     font-size: 70px;
   }
-
   .travel-blog-header-img {
     height: 350px;
     margin-top: -30px;
     border: solid white 3px;
 }
+
+.travel-blog-banner-oceania {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/78d1fe0a-6a27-4c8d-b92e-bcf0a7b2a66c/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 45%;
+    color: white;
+}
+.travel-blog-banner-oceania h1 {
+    font-size: 70px;
+  }
+
+.travel-blog-banner-europe {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/a1ef82ef-f378-4ad0-8500-3dc6f350ce00/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 45%;
+    color: white;
+}
+.travel-blog-banner-europe h1 {
+    font-size: 70px;
+    text-shadow: 2px 4px 3px #000;
+  }
+
+.travel-blog-banner-america {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/9a59df13-d56a-4896-bc8f-6bf08d5b30f9/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 35%;
+    color: white;
+}
+.travel-blog-banner-america h1 {
+    font-size: 70px;
+    text-shadow: 2px 4px 3px #000;
+  }
+
+.travel-blog-banner-centralAmerica {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/abb782c3-353a-4752-8593-e99b76ab567e/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 35%;
+    color: white;
+}
+.travel-blog-banner-centralAmerica h1 {
+    font-size: 70px;
+    text-shadow: 2px 4px 3px #000;
+  }
+

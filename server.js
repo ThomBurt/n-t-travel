@@ -38,14 +38,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 
-
-//Sets up data parsing
-app.use(express.urlencoded({ extended: true }));
-
-// API ROUTES
-app.use('/api/v1/tours', tourRouter);
-app.use('/api/v1/users', userRouter);
-
 //TEST CODE FOR HTTP
 app.enable('trust proxy')
 app.use(function(request, response, next) {
@@ -56,6 +48,17 @@ app.use(function(request, response, next) {
 
   next();
 })
+
+
+
+
+//Sets up data parsing
+app.use(express.urlencoded({ extended: true }));
+
+// API ROUTES
+app.use('/api/v1/tours', tourRouter);
+app.use('/api/v1/users', userRouter);
+
 
 // Set ups the HTML directory path for startup
 app.get('/', async (req, res) => 

@@ -391,3 +391,21 @@ body {
 }
 
 
+.packing-list-banner {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/e0ab2eea-db7f-4201-b628-c952d591138a/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 48%;
+    color: white;
+  }
+
+ .packing-list-h1 {
+    color: white;
+    font-size: 80px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}

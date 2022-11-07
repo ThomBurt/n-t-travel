@@ -15,6 +15,8 @@ const PORT = process.env.PORT || 3001;
 // initializes express
 const app = express();
 
+
+
 //1 MIDDLEWARE
 //morgan is third party middleware that give your api request in the cnsolse, as well as how long it took to request, status code and size.
 app.use(morgan('dev'));
@@ -43,6 +45,11 @@ app.use(express.urlencoded({ extended: true }));
 // API ROUTES
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
+
+
+app.get('*', function(req, res) {  
+  res.redirect('https://' + req.headers.host + req.url);
+})
 
 
 // Set ups the HTML directory path for startup

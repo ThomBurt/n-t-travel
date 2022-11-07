@@ -38,6 +38,7 @@ body {
     height: 750px;
 }
 
+
 .carousel-image-1 {
     background: url('../img/slideshow/IMG_5164.JPG') no-repeat left;
     background-position: 100% 55%;
@@ -45,7 +46,7 @@ body {
     
 }
 .carousel-image-2 {
-    background: url('../img/slideshow/IMG_5159.JPG')  no-repeat ;
+    background: url('../img/amalfi.jpg')  no-repeat ;
     background-position: 100% 30%;
     background-size: cover;
 }

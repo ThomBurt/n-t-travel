@@ -47,9 +47,6 @@ app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 
 
-app.get('*', function(req, res) {  
-  res.redirect('https://' + req.headers.host + req.url);
-})
 
 
 // Set ups the HTML directory path for startup

@@ -38,16 +38,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 
 
-// //TEST CODE FOR HTTP
-// app.enable('trust proxy')
-// app.use(function(request, response, next) {
+//TEST CODE FOR HTTP
+app.enable('trust proxy')
+app.use(function(request, response, next) {
 
-//   if (process.env.NODE_ENV != 'development' && !request.secure) {
-//      return response.redirect("https://" + request.headers.host + request.url);
-//   }
+  if (process.env.NODE_ENV != 'development' && !request.secure) {
+     return response.redirect("https://" + request.headers.host + request.url);
+  }
 
-//   next();
-// })
+  next();
+})
 
 
 

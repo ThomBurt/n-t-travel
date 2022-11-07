@@ -154,17 +154,24 @@ body {
 
 
 #faq .card {
-    border: #444;
+    border: rgb(202, 193, 193);
+}
+
+#faq h1 {
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #faq a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 #faq .card-body, 
 #faq .card-header {
-    background: #333;
+    background-color: #ffffff;
 }
 
 .insta-social-icon-contact:hover {
@@ -203,13 +210,19 @@ body {
   }
 
   #page-header {
-    height: 150px;
-    background: url('/img/slideshow/IMG_8204.JPG');
-    background-position: 0 -360px;
+    height: 120px;
+    background: url('/img/tropical.jpg');
+    background-position: 0 -2660px;
     background-attachment: fixed;
     color: white;
     border-bottom: 1px #eee solid;
     padding-top: 40px;
+}
+
+.ocean {
+    background: url('/img/tropical.jpg');
+    background-position: 0 -2660px;
+    background-attachment: fixed;
 }
 
 .wedding-img {

@@ -46,8 +46,16 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 
+//TEST CODE FOR HTTP
+app.enable('trust proxy')
+app.use(function(request, response, next) {
 
+  if (process.env.NODE_ENV != 'development' && !request.secure) {
+     return response.redirect("https://" + request.headers.host + request.url);
+  }
 
+  next();
+})
 
 // Set ups the HTML directory path for startup
 app.get('/', async (req, res) => 

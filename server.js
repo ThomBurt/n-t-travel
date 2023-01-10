@@ -15,10 +15,15 @@ const PORT = process.env.PORT || 3001;
 // initializes express
 const app = express();
 
+
+
+
 ///***************************************************************************************************************************///
 
 /* At the top, with other redirect methods before other routes */
-//  COMMENT OUT FOR DEVELOPMENT
+
+
+//  COMMENT OUT FOR DEVELOPMENT AND NODEMON START
 
 app.get('*',function(req,res,next){
   if(req.headers['x-forwarded-proto']!='https')
@@ -29,6 +34,8 @@ app.get('*',function(req,res,next){
 
 
 ///***************************************************************************************************************************///
+
+
 
 
 

@@ -23,3 +23,18 @@ src="https://www.facebook.com/tr?id=5151297644970584&ev=PageView&noscript=1"
 /></noscript> -->
 
 <!-- End Meta Pixel Code -->
+
+
+
+<!-- Google tag (gtag.js) -->
+
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-C64N2Q9W7J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C64N2Q9W7J');
+</script> -->
+
+<!-- END Google tag (gtag.js) -->

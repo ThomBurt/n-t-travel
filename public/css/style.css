@@ -45,7 +45,7 @@ body {
 
 .carousel-image-1 {
     background: url('../img/slideshow/niki-canoe.JPG') no-repeat left;
-    /* background-position: 100% 55%; */
+    background-position: 50% 55%;
     background-size: cover;
     
 }

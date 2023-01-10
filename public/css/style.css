@@ -219,7 +219,7 @@ body {
 
   #page-header {
     height: 120px;
-    background-color: #63b9df;
+    background-color: #267bbf;
     background-position: 0 -2660px;
     background-attachment: fixed;
     color: white;
@@ -228,6 +228,10 @@ body {
 }
 #page-header h1 {
     font-weight: bold;
+}
+
+.testinmonial-about-us {
+    background-color: #267bbf;
 }
 
 .ocean {
@@ -244,7 +248,8 @@ body {
 
 #what-we-do {
     height: 100px;
-    background-color: #7DBBF4;
+    /* background-color: #267bbf; */
+    background: linear-gradient(#267bbf, #7dbbf4);
     color: white;
     border-bottom: 1px #eee solid;
     padding-top: 20px;

@@ -15,12 +15,10 @@ const PORT = process.env.PORT || 3001;
 // initializes express
 const app = express();
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///***************************************************************************************************************************///
 
 /* At the top, with other redirect methods before other routes */
 //  COMMENT OUT FOR DEVELOPMENT
-
-
 
 app.get('*',function(req,res,next){
   if(req.headers['x-forwarded-proto']!='https')
@@ -30,7 +28,9 @@ app.get('*',function(req,res,next){
 })
 
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////
+///***************************************************************************************************************************///
+
+
 
 //1 MIDDLEWARE
 //morgan is third party middleware that give your api request in the cnsolse, as well as how long it took to request, status code and size.

@@ -235,15 +235,28 @@ body {
 }
 
 .ocean {
-    background: url('/img/tropical.jpg');
-    background-position: 0 -2660px;
-    background-attachment: fixed;
+    background-color: #267bbf;
 }
 
 .wedding-img {
     height: 550px;
     margin-top: -50px;
     border: solid white 3px;
+}
+
+.services-img {
+    height: 600px;
+    border: solid white 3px;
+}
+
+.services-research-h1 {
+    margin-top: -70px;
+    font-size: 50px;
+    font-weight: bolder;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
 }
 
 #what-we-do {
@@ -288,6 +301,17 @@ body {
     background-color: #343A40;
     border-top: 3px solid black;
 }
+
+.services-banner {
+    height: 250px;
+    min-height: 250px;
+    background-image: url('https://ucarecdn.com/b1590556-eafc-4b78-a817-97a541b3821f/');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 70%;
+    color: white;
+  }
 
 .travel-blog-banner {
     height: 350px;

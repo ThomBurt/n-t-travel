@@ -22,6 +22,24 @@ body {
     font-family: 'Gilroy-Regular', sans-serif;
 }
 
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
 .navbar {
     font-family: 'Gilroy-Bold', sans-serif;
     border-bottom: solid 3px #444;
@@ -457,3 +475,21 @@ body {
 .bigger-font-size {
     font-size: 18px;
 }
+
+.services-heading-continents {
+    margin-bottom: 25px;
+    border-bottom: .5px solid black;
+}
+
+.bg-img {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+

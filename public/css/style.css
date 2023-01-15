@@ -334,11 +334,11 @@ h6,
 .travel-blog-banner {
     height: 350px;
     min-height: 350px;
-    background-image: url('https://ucarecdn.com/b1590556-eafc-4b78-a817-97a541b3821f/');
+    background-image: url('https://ucarecdn.com/6ab8d320-9a68-4386-9203-73a9d7e80ee1/coast.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-position:0 70%;
+    background-position:0 60%;
     color: white;
   }
   .travel-blog-banner h1 {
@@ -494,7 +494,7 @@ h6,
     background-color: #6e757d;
 }
 
-
-
-
+.travel-blog-continent-headings {
+    font-size: 20px;
+}
 

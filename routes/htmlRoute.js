@@ -45,6 +45,9 @@ router.get('/services', (req, res) => {
   router.get('/travel-packing-list', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/travelPackingList.html'));
   });
+  router.get('/faq', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/faq.html'));
+  });
 
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));

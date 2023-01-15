@@ -237,7 +237,7 @@ h6,
 
   #page-header {
     height: 120px;
-    background-color: #267bbf;
+    background-color: #6dbee1;
     background-position: 0 -2660px;
     background-attachment: fixed;
     color: white;
@@ -249,11 +249,11 @@ h6,
 }
 
 .testinmonial-about-us {
-    background-color: #267bbf;
+    background-color: #6dbee1;
 }
 
 .ocean {
-    background-color: #267bbf;
+    background-color: #6dbee1;
 }
 
 .wedding-img {
@@ -280,7 +280,7 @@ h6,
 #what-we-do {
     height: 100px;
     /* background-color: #267bbf; */
-    background: linear-gradient(#267bbf, #7dbbf4);
+    background: linear-gradient(#6dbee1, #7dbbf4);
     color: white;
     border-bottom: 1px #eee solid;
     padding-top: 20px;
@@ -486,8 +486,13 @@ h6,
     background-size: cover;
 }
 
+.icon-boxes-aboutUs {
+    background-color: #6dbee1;
+}
 
-
+.icon-boxes-dark {
+    background-color: #6e757d;
+}
 
 
 

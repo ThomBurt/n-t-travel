@@ -56,6 +56,13 @@ h6,
     border-left: #444 3px solid;
 }
 
+.text-dec-none {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
 .carousel-caption {
     background-color: rgba(0,0,0,0.8);
     font-family: 'Gilroy-Medium', sans-serif;

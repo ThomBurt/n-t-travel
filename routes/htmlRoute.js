@@ -30,6 +30,9 @@ router.get('/services', (req, res) => {
   router.get('/central-and-south-america', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/centralAmerica.html'));
   });
+  router.get('/africa', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/africa.html'));
+  });
   router.get('/oceania', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/oceania.html'));
   });

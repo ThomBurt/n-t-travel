@@ -1,14 +1,16 @@
 const express = require('express');
 const morgan = require('morgan');
 
+// USER FROM CONFIG.JS
+// const User = require('./js/config')
+
 const path = require('path');
 const htmlRoutes = require('./routes/htmlRoute');
 // const { google } = require("googleapis");
 require('dotenv').config();
-// const cors = require('cors');
+//const cors = require('cors');
 
-const tourRouter = require('./routes/tourRoutes');
-const userRouter = require('./routes/userRoutes');
+
 
 const PORT = process.env.PORT || 3001;
 
@@ -75,9 +77,7 @@ app.use(express.json());
 //Sets up data parsing
 app.use(express.urlencoded({ extended: true }));
 
-// API ROUTES
-app.use('/api/v1/tours', tourRouter);
-app.use('/api/v1/users', userRouter);
+
 
 
 // Set ups the HTML directory path for startup
@@ -91,7 +91,11 @@ app.use('/', htmlRoutes);
 
 
 
-
+// app.post("/create", async(req, res) => {
+//   const date = req.body
+//   await User.add(data)
+//   res.send({msg:"User Added"})
+// })
 
 
 

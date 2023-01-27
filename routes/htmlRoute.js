@@ -51,6 +51,9 @@ router.get('/services', (req, res) => {
   router.get('/faq', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/faq.html'));
   });
+  router.get('/login', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/loginSignup.html'));
+  });
 
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));

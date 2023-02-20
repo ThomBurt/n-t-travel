@@ -29,8 +29,9 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
+  
   <link rel="stylesheet" href="css/style.css">
-  <title>Niki & Thom Travel</title>
+  <title>Niki + Thom Travel</title>
 
   <!-- Meta Pixel Code -->
 <script>
@@ -332,7 +333,26 @@
       </div>
     </section>
     
-    
+  <!--Partners-->
+  <div class="container partners-container ">
+    <h1 class="text-center font-weight-bold mb-3 d-sm-block">Our Partners</h1>
+    <section class="customer-logos slider d-sm-block">
+        <div class="slide logo-partners"><a href="https://www.discovernewzealand.com/" target=”_blank”><img src="/img/Partners/discoverNZ.png" alt="Discover New Zealand"></a></div>
+        <div class="slide logo-partners"><a href="https://www.nzsidekick.com/" target=”_blank”><img src="/img/Partners/nz.png" alt="NZ SideKick logo"></a></div>
+        <div class="slide logo-partners"><a href="https://www.elecjet.com/" target=”_blank”><img src="/img/Partners/elecjet.png" alt="elecjet logo"></a></div>
+        <div class="slide logo-partners"><a href="https://www.indyhygienehub.org/" target=”_blank”><img src="/img/Partners/ihh.png" alt="indy hygiene hub logo"></a></div>
+        <div class="slide logo-partners"><a href="https://www.rcaunited.com/" target=”_blank”><img src="/img/Partners/rca.png" alt="rca logo"></a></div>
+        <div class="slide logo-partners"><a href="https://www.newzealandfinetouring.co.nz/" target=”_blank”><img src="/img/Partners/NZFineTouringGroup.png" alt="New Zealand Fine Touring Group"></a></div>
+        <div class="slide logo-partners"><a href="https://www.insideaustraliatravel.com/" target=”_blank”><img src="/img/Partners/insideAUSTravel.png" alt="Inside Australia"></a></div>
+        <div class="slide logo-partners"><a href="https://www.purejourneys.com/" target=”_blank”><img src="/img/Partners/pureJourneys.png" alt="Pure Journeys"></a></div>
+        <div class="slide logo-partners"><a href="https://www.newzealandselfdrivetours.co.nz/" target=”_blank”><img src="/img/Partners/nzSelfDrive.png" alt="New Zealand Self drive"></a></div>
+        <div class="slide logo-partners"><a href="https://www.finetoursnewzealand.co.nz/" target=”_blank”><img src="/img/Partners/finetoursNZ.png" alt="New Zealand Fine Tours"></a></div>
+        <div class="slide logo-partners"><a href="https://www.newzealandcoachtours.co.nz/" target=”_blank”><img src="/img/Partners/NZCoachtours.png" alt="New Zealand Coach Tours"></a></div>
+        <div class="slide logo-partners"><a href="https://www.nzroadtrip.com/" target=”_blank”><img src="/img/Partners/NZRoadTrip.png" alt="New Zealand Road Trip"></a></div>
+        <div class="slide logo-partners"><a href="https://www.skinewzealand.co.nz/" target=”_blank”><img src="/img/Partners/skiMNZ.png" alt="New Zealand SKI"></a></div>
+        <div class="slide logo-partners"><a href="https://www.thriftytours.co.nz/" target=”_blank”><img src="/img/Partners/thirfty.png" alt="Thrifty Tours New Zealand"></a></div>
+    </section>
+</div>    
     
   <!--FOOTER NEW-->
   <footer
@@ -469,6 +489,8 @@
   <!-- <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script> -->
   <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
@@ -507,6 +529,29 @@
       });
     });
 
+
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:false,
+            responsive: [{
+                breakpoint: 768,
+                setting: {
+                    slidesToShow:4
+                }
+            }, {
+                breakpoint: 520,
+                setting: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
 
   </script>
 </body>

@@ -727,6 +727,12 @@ h6,
     border-bottom: 1px black dotted;
 }
 
+
+.capri-itinerary {
+    border-bottom: dotted 1px black;
+}
+
+
 @media screen and (max-width: 768px) {
     .amalfi-map {
         height: 300px;

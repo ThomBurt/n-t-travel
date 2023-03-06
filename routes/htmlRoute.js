@@ -18,8 +18,11 @@ router.get('/services', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/services.html'));
   });
 
-  router.get('/blog', (req, res) => {
+  router.get('/our-travels', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/travelBlog.html'));
+  });
+  router.get('/blog', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/blogMainPage.html'));
   });
   router.get('/europe', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/europe.html'));
@@ -53,6 +56,15 @@ router.get('/services', (req, res) => {
   });
   router.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/loginSignup.html'));
+  });
+
+
+  //Blog Routes
+  router.get('/blog/amalfi-coast', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/amalfiBlog.html'));
+  });
+  router.get('/blog/croatia', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/croatiaBlog.html'));
   });
 
 router.get('*', (req, res) => {

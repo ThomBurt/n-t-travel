@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.font {
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    font-family: 'Gilroy-Light', sans-serif;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.navbar {
+    font-family: 'Gilroy-Bold', sans-serif;
+    border-bottom: solid 3px #444;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid;
+}
+
+.text-dec-none {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+/* BLOG */
+
+.blog-banner {
+    height: 280px;
+    min-height: 280px;
+    background-image: url('../img/Blog/blog-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 60%;
+    color: white;
+  }
+  .blog-banner h1 {
+    font-size: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
+
+.blog-heading a{
+    font-size: 25px;
+    color: #000;
+}
+.blog-heading a:hover {
+    color:darkolivegreen;
+}
+
+.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important; }
+
+.block-20 {
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 250px;
+	position: relative;
+	display: block;
+}
+
+.blog-entry{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: 0;
+    border-radius: 2px;
+	
+}
+
+.meta {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.meta a {
+    color: black;
+    font-size: 15px;
+}
+.meta a:hover {
+        color: darkolivegreen;
+}

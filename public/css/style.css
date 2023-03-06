@@ -570,10 +570,12 @@ h6,
 .partners-container {
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 50px;
+    border-top: 1px dotted black;
 }
 .logo-partners {
-    margin: 50px;
-    width: 190px !important;
+    margin-right: 40px !important;
+    width: 160px !important;
 }
 .slick-slide{
     margin: 0 20px;
@@ -611,3 +613,128 @@ h6,
 .slick-initialized .slick-slide{
     display: block;
 }
+
+
+/* BLOG */
+
+.blog-banner {
+    height: 280px;
+    min-height: 280px;
+    background-image: url('../img/Blog/blog-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 60%;
+    color: white;
+  }
+  .blog-banner h1 {
+    font-size: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  }
+
+.blog-heading a{
+    font-size: 25px;
+    color: #000;
+}
+.blog-heading a:hover {
+    color:darkolivegreen;
+}
+
+.align-self-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important; }
+
+.block-20 {
+	overflow: hidden;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 250px;
+	position: relative;
+	display: block;
+}
+
+.blog-entry{
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-top: 0;
+    border-radius: 2px;
+	
+}
+
+.meta {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.meta a {
+    color: black;
+    font-size: 15px;
+}
+.meta a:hover {
+        color: darkolivegreen;
+}
+
+.tags {
+    font-size: 1px;
+    color:blue;
+    margin-top: 5px;
+}
+
+
+.amalfi-blog-banner {
+    height: 280px;
+    min-height: 280px;
+    background-image: url('../img/Blog/Amalfi/amalfi-blog.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 25%;
+    color: white;
+  }
+  .amalfi-blog-banner h1 {
+    font-size: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.7);
+  }
+
+
+.blog-text {
+    font-size: 20px;
+}
+
+.side-note {
+    font-size: 15px;
+}
+
+.amalfi-map {
+    width: 100%;
+}
+
+.vesuvius {
+    width: 100%;
+
+}
+.vesuvius-2 {
+    height: 300px;
+}
+
+.border-bottom-blog {
+    border-bottom: 1px black dotted;
+}
+
+@media screen and (max-width: 768px) {
+    .amalfi-map {
+        height: 300px;
+        min-height: 300px;
+    }
+    .vesuvius {
+        height: 300px;
+        min-height: 300px;
+    }
+}
+

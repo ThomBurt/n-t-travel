@@ -66,6 +66,13 @@ router.get('/services', (req, res) => {
   router.get('/blog/croatia', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/croatiaBlog.html'));
   });
+  router.get('/blog/72-hours-in-Barcelona', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/72hoursBarcelona.html'));
+  });
+
+
+
+
 
 router.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/index.html'));

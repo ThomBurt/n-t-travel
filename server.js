@@ -25,12 +25,12 @@ const app = express();
 
 //  COMMENT OUT FOR DEVELOPMENT AND NODEMON START
 
-app.get('*',function(req,res,next){
-  if(req.headers['x-forwarded-proto']!='https')
-    res.redirect('https://nikiandthom.com'+req.url)
-  else
-    next() /* Continue to other routes if we're not redirecting */
-})
+// app.get('*',function(req,res,next){
+//   if(req.headers['x-forwarded-proto']!='https')
+//     res.redirect('https://nikiandthom.com'+req.url)
+//   else
+//     next() /* Continue to other routes if we're not redirecting */
+// })
 
 
 ///***************************************************************************************************************************///

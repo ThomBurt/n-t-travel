@@ -732,6 +732,21 @@ h6,
     border-bottom: dotted 1px black;
 }
 
+.croatia-blog-banner {
+    height: 280px;
+    min-height: 280px;
+    background-image: url('../img/Blog/split/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 50%;
+    color: white;
+  }
+  .croatia-blog-banner h1 {
+    font-size: 50px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+  }
+
 
 @media screen and (max-width: 768px) {
     .amalfi-map {

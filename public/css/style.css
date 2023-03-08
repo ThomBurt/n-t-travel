@@ -3,7 +3,7 @@ html {
   }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden !important ;
 }
 
 * {
@@ -576,6 +576,10 @@ h6,
 .logo-partners {
     margin-right: 40px !important;
     width: 160px !important;
+}
+
+.logo-partners-new img {
+    width: 250px !important;
 }
 .slick-slide{
     margin: 0 20px;

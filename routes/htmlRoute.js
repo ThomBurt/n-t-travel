@@ -69,6 +69,9 @@ router.get('/services', (req, res) => {
   router.get('/blog/72-hours-in-Barcelona', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/72hoursBarcelona.html'));
   });
+  router.get('/blog/mostar-bosnia', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/mostar.html'));
+  });
 
 
 

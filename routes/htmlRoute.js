@@ -72,6 +72,9 @@ router.get('/services', (req, res) => {
   router.get('/blog/mostar-bosnia', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/mostar.html'));
   });
+  router.get('/blog/courtney-and-matt-guillot-trip', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/courtAndMatt.html'));
+  });
 
 
 

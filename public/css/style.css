@@ -303,6 +303,7 @@ h6,
     font-weight: bold;
 }
 
+
 .testinmonial-about-us {
     background-color: #6dbee1;
 }
@@ -389,15 +390,18 @@ h6,
 .travel-blog-banner {
     height: 350px;
     min-height: 350px;
-    background-image: url('https://ucarecdn.com/6ab8d320-9a68-4386-9203-73a9d7e80ee1/coast.png');
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-position:0 60%;
+    background-position:0 50%;
     color: white;
   }
   .travel-blog-banner h1 {
     font-size: 70px;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.4),
+             0px 18px 23px rgba(0,0,0,0.4);
   }
   .travel-blog-header-img {
     height: 350px;

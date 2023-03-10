@@ -191,7 +191,7 @@ h6,
 }
 
 .how-can-we-help-container {
-    height: 400px;
+    height: 500px;
     width: 100%;
     color: #6c757d;
     background-color: #6dbee1;
@@ -212,6 +212,22 @@ h6,
     margin-left: 50px;
 }
 .howCanWeHelpInnerDivs:hover {
+    background-color: #0b5a7c;
+    color: white;
+    cursor: pointer;
+}
+
+.travel-resources-services {
+    height: 250px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: white;
+    padding: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 50px;
+}
+.travel-resources-services:hover {
     background-color: #0b5a7c;
     color: white;
     cursor: pointer;
@@ -779,7 +795,7 @@ h6,
         min-height: 300px;
     }
     .how-can-we-help-container {
-        height: 900px;
+        height: 1050px;
     }
     
     .howCanWeHelpInnerDivs {

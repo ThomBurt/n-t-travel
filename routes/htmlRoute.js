@@ -18,10 +18,10 @@ router.get('/services', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/services.html'));
   });
 
-  router.get('/our-travels', (req, res) => {
+  router.get('/destinations', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/travelBlog.html'));
   });
-  router.get('/blog', (req, res) => {
+  router.get('/itineraries', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/blogMainPage.html'));
   });
   router.get('/europe', (req, res) => {
@@ -60,19 +60,19 @@ router.get('/services', (req, res) => {
 
 
   //Blog Routes
-  router.get('/blog/amalfi-coast', (req, res) => {
+  router.get('/itineraries/amalfi-coast', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/amalfiBlog.html'));
   });
-  router.get('/blog/croatia', (req, res) => {
+  router.get('/itineraries/croatia', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/croatiaBlog.html'));
   });
-  router.get('/blog/72-hours-in-Barcelona', (req, res) => {
+  router.get('/itineraries/72-hours-in-Barcelona', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/72hoursBarcelona.html'));
   });
-  router.get('/blog/mostar-bosnia', (req, res) => {
+  router.get('/itineraries/mostar-bosnia', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/mostar.html'));
   });
-  router.get('/blog/courtney-and-matt-guillot-trip', (req, res) => {
+  router.get('/itineraries/courtney-and-matt-guillot-trip', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/courtAndMatt.html'));
   });
 

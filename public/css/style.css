@@ -760,6 +760,11 @@ h6,
     display: none !important;
 }
 
+.read-more {
+    font-weight:550;
+    color:#009dff !important;
+}
+
 .blog-smaller-font {
     font-size: 20px;
 }

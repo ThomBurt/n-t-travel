@@ -819,4 +819,7 @@ h6,
         min-height: 300px;
         width: 420px
     }
+    .destinations-h1 {
+        font-size: 50px !important;
+    }
 }

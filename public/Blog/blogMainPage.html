@@ -32,6 +32,7 @@
   <script src="https://kit.fontawesome.com/c96c8e63ed.js" crossorigin="anonymous"></script>
 
 
+
   <title>Blog - Niki & Thom Travel</title>
 
     <!-- Meta Pixel Code -->
@@ -102,23 +103,74 @@
     </div>
 </header>
 
+
 <!--Newest Blog has to be first-->
 <!--Be sure to make sure the heading is long, or the picture wont fill up the whole way-->
 
-    <section class="ftco-section">
+<!-- FROM YOUTUBE VID https://www.youtube.com/watch?v=RVrHC__Tkx0-->
+<!-- <div class="container display-none">
+  <div class="input-filter">
+    <input type="text" name="" placeholder="Enter Itinerary" onkeyup="searchBlogs()" id="" class="filter">
+  </div>
+
+  <div class="card-lists" id="card-lists">
+    <div class="row">
+      <div class="card col-md-3 d-flex m-3">
+        <img src="" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Business Cards</h5>
+        </div>
+      </div>
+      <div class="card col-md-3 d-flex m-3">
+        <img src="" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Case Study</h5>
+        </div>
+      </div>
+      <div class="card col-md-3 d-flex m-3">
+        <img src="" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Zoom Call</h5>
+        </div>
+      </div>
+      <div class="card col-md-3 d-flex m-3">
+        <img src="" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Microsoft Excel Forum</h5>
+        </div>
+      </div>
+      <div class="card col-md-3 d-flex m-3">
+        <img src="" alt="">
+        <div class="card-body">
+          <h5 class="card-title">Photoshop</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!--OLD BLOG SECTION, take off display nonw-->
+    <section class="">
       <div class="container">
-        <div class="row d-flex">
+
+        <!--FILTER-->
+        <div class="input-filter m-5">
+          <input type="text" name="" id="filter" class="blog-filter" placeholder="Search Itineraries" onkeyup="searchItinerary()">
+        </div>
+
+        <div class="row d-flex" id="card-lists">
 
 
           <!--Court and Matt-->
-          <div class="col-md-3 d-flex ftco-animate">
+          <div class="col-md-3 d-flex blog-card">
             <div class="blog-entry align-self-stretch">
               <a href="/itineraries/courtney-and-matt-guillot-trip" class="block-20" style="background-image: url('../img/Blog/guillot/romanticsquare.jpg');">
               </a>
-              <div class="text mt-3 d-block">
-                <h3 class="blog-heading mt-3"><a href="/itineraries/courtney-and-matt-guillot-trip">Courtney and Matt Guillot, Honeymoon in Italy - January 2023</a></h3>
+              <div class="text mt-3 d-block blog-body">
+                <h3 class="blog-heading mt-3 blog-title">Courtney and Matt Guillot, Honeymoon in Italy - January 2023</h3>
                 <div class="meta mb-3">
                   <div><a >January 30th, 2023</a></div>
+                  <a href="/itineraries/courtney-and-matt-guillot-trip">Courtney and Matt Guillot, Honeymoon in Italy - January 2023</a>
                 </div>
               </div>
             </div>
@@ -126,14 +178,16 @@
 
 
           <!--72 hours in Barcelona-->
-          <div class="col-md-3 d-flex ftco-animate">
+          <div class="col-md-3 d-flex blog-card">
             <div class="blog-entry align-self-stretch">
               <a href="/itineraries/72-hours-in-Barcelona" class="block-20" style="background-image: url('../img/Blog/barcelona/barca.jpg');">
               </a>
-              <div class="text mt-3 d-block">
-                <h3 class="blog-heading mt-3"><a href="/itineraries/72-hours-in-Barcelona">3 Days in Barcelona: The Perfect 72 hour Itinerary</a></h3>
+              <div class="text mt-3 d-block blog-body">
+                <h3 class="blog-heading mt-3 blog-title">3 Days in Barcelona: The Perfect 72 hour Itinerary
+                  </h3>
                 <div class="meta mb-3">
                   <div><a >December 18th, 2022</a></div>
+                  <a href="/itineraries/72-hours-in-Barcelona">3 Days in Barcelona: The Perfect 72 hour Itinerary</a>
                 </div>
               </div>
             </div>
@@ -141,14 +195,16 @@
 
 
           <!--Split, Croatia-->
-          <div class="col-md-3 d-flex ftco-animate">
+          <div class="col-md-3 d-flex blog-card">
             <div class="blog-entry align-self-stretch">
               <a href="/itineraries/croatia" class="block-20" style="background-image: url('../img/Pics - Edited/Croatia/croatia\ 5\ -\ Edited.png');">
               </a>
-              <div class="text mt-3 d-block">
-                <h3 class="blog-heading mt-3"><a href="/itineraries/croatia">Croatia is stunningly beautiful, we love Split!</a></h3>
+              <div class="text mt-3 d-block blog-body">
+                <h3 class="blog-heading mt-3 blog-title">Croatia is stunningly beautiful, we love Split!
+                 </h3>
                 <div class="meta mb-3">
                   <div><a >November 25th, 2022</a></div>
+                  <a href="/itineraries/croatia" class="">Croatia is stunningly beautiful, we love Split!</a>
                 </div>
               </div>
             </div>
@@ -156,28 +212,32 @@
  
           
           <!--Mostar-->
-          <div class="col-md-3 d-flex ftco-animate">
+          <div class="col-md-3 d-flex blog-card">
             <div class="blog-entry align-self-stretch">
               <a href="/itineraries/mostar-bosnia" class="block-20" style="background-image: url('../img/Blog/mostar/mostar1.jpg');">
               </a>
-              <div class="text mt-3 d-block">
-                <h3 class="blog-heading mt-3"><a href="/itineraries/mostar-bosnia">An Ottoman gem, Mostar, Bosnia & Herzegovina</a></h3>
+              <div class="text mt-3 d-block blog-body">
+                <h3 class="blog-heading mt-3 blog-title">An Ottoman gem, Mostar, Bosnia & Herzegovina
+                </h3>
                 <div class="meta mb-3">
                   <div><a >November 16th, 2022</a></div>
+                  <a href="/itineraries/mostar-bosnia">An Ottoman gem, Mostar, Bosnia & Herzegovina</a>
                 </div>
               </div>
             </div>
           </div>
 
           <!--Weekend on the Amalfi Coast-->
-          <div class="col-md-3 d-flex ftco-animate">
+          <div class="col-md-3 d-flex blog-card">
             <div class="blog-entry align-self-stretch">
               <a href="/itineraries/amalfi-coast" class="block-20" style="background-image: url('../img/Pics - Edited/Italy/italy\ 7\ \ -\ Edited.png');">
               </a>
-              <div class="text mt-3 d-block">
-                <h3 class="blog-heading mt-3"><a href="/itineraries/amalfi-coast">A long weekend spent on the Amalfi Coast!</a></h3>
+              <div class="text mt-3 d-block blog-body">
+                <h3 class="blog-heading mt-3 blog-title">A long weekend spent on the Amalfi Coast, Italy!
+                 </h3>
                 <div class="meta mb-3">
                   <div><a >October 25th, 2022</a></div>
+                  <a href="/itineraries/amalfi-coast">A long weekend spent on the Amalfi Coast!</a>
 
                   <!-- <div><a href="#">Admin</a></div> -->
                 </div>
@@ -352,9 +412,8 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
+    <script src="../js/blogFilter.js" defer></script>
 
-
-    
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());

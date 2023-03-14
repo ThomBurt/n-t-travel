@@ -336,10 +336,10 @@ h6,
 #what-we-do {
     height: 100px;
     /* background-color: #267bbf; */
-    background: linear-gradient(#6dbee1, #7dbbf4);
-    color: white;
+    color: black;
     border-bottom: 1px #eee solid;
     padding-top: 20px;
+    border-bottom: 1px solid black;
 }
 
 .testimonial-paragraph {
@@ -508,6 +508,16 @@ h6,
 }
 
 
+.cell-phone-banner {
+    height: 350px;
+    min-height: 350px;
+    background-image: url('https://ucarecdn.com/e2e2b175-ad48-4f65-b0b2-af8ddb61628b/shutterstock_160135568015367540680.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 48%;
+    color: white;
+  }
 .packing-list-banner {
     height: 350px;
     min-height: 350px;
@@ -828,6 +838,9 @@ h6,
         width: 420px
     }
     .destinations-h1 {
+        font-size: 50px !important;
+    }
+    .packing-list-h1 {
         font-size: 50px !important;
     }
 }

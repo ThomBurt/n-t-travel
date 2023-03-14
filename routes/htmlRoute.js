@@ -75,6 +75,9 @@ router.get('/services', (req, res) => {
   router.get('/itineraries/courtney-and-matt-guillot-trip', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/courtAndMatt.html'));
   });
+  router.get('/international-phone-guide', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/phoneGuide.html'));
+  });
 
 
 

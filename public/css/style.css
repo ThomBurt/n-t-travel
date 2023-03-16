@@ -735,6 +735,21 @@ h6,
     text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
   }
 
+  .edinburgh-blog-banner {
+    height: 280px;
+    min-height: 280px;
+    background-image: url('https://images.unsplash.com/photo-1570054498590-a00b51c5c006?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position:0 40%;
+    color: white;
+  }
+  .edinburgh-blog-banner h1 {
+    font-size: 50px;
+    text-shadow: 0px 0px 10px rgba(0,0,0,1);
+  }
+
   .bosnia-blog-banner {
     height: 280px;
     min-height: 280px;

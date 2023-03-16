@@ -78,6 +78,9 @@ router.get('/services', (req, res) => {
   router.get('/international-phone-guide', (req, res) => {
     res.sendFile(path.join(__dirname, '../public/Blog/phoneGuide.html'));
   });
+  router.get('/itineraries/72-hours-in-edinburgh', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public/Blog/3daysEdinburgh.html'));
+  });
 
 
 
